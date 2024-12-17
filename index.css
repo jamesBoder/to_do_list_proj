@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width:100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, white, blue);
+  padding: 10px;
+}
+
+input {
+  display: inline;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: transparent;
+  font-weight: 14px;
+  
+}
+
+button .submit {
+  right: 20px;
+
+}
+
+.btn-danger {
+  border-radius: 2px;
+
+}
+
+.row {
+  border-bottom: solid 2px white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  border-bottom: solid 2px white;
+  margin-bottom: 10px;
+}
