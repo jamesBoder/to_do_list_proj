@@ -1,4 +1,4 @@
-$(document).ready(function(){
+document.addEventListener('DOMContentLoaded', function () {
 
   var getAndDisplayAllTasks = function () {
 
@@ -102,12 +102,7 @@ $(document).ready(function(){
    });
 
 
-
-
-
-  
-
-
+  getAndDisplayAllTasks();
 
 
 
